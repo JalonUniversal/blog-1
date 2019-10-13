@@ -1,0 +1,3 @@
+@function pr($px){
+	@return $px * 375 / 1000 / 20 + rem;
+}
